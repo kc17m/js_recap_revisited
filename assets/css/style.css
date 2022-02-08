@@ -31,6 +31,9 @@ li a:hover:not(.active) {
 .pink {
     background-color: pink;
 }
+.reverse {
+    transform: rotateY(180deg);
+}
 
 /* lev2_2 */
 

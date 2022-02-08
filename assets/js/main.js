@@ -78,7 +78,10 @@ console.log(resultOne % resultTwo);
 // lev2_1 DOM Elements
 
 let home = document.getElementById("home-li");
+let navHome = document.getElementById("navHome");
+
 console.log(home);
+console.log(navHome);
 let navNews = document.getElementById("navNews");
 let navContact = document.getElementById("navContact");
 let navChange = document.getElementById("navChange")
@@ -86,6 +89,9 @@ let navChange = document.getElementById("navChange")
 function changeMe() {
     console.log("test");
     home.classList.toggle("pink");
+    navHome.classList.add("reverse");
+
+
 }
 
 // lev2_2 DOM Elements
