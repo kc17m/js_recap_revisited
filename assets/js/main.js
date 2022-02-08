@@ -140,9 +140,9 @@ let box = document.getElementById("box");
 
 function randomBackgroundColor() {
 
-    let randomValue1 = Math.floor(Math.random() * 200);
-    let randomValue2 = Math.floor(Math.random() * 200);
-    let randomValue3 = Math.floor(Math.random() * 200);
+    let randomValue1 = Math.floor(Math.random() * 256);
+    let randomValue2 = Math.floor(Math.random() * 256);
+    let randomValue3 = Math.floor(Math.random() * 256);
 
     console.log(randomValue1);
 
