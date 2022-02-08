@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JS Revisited</title>
+</head>
+
+<body>
+
+    <h1>lev2_1</h1>
+    <ul>
+        <div class="listContainer">
+            <li id="home-li"><a class="nav" id="navHome" href="#home">Home</a></li>
+            <li><a class="nav" id="navNews" href="#news">News</a></li>
+            <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
+        </div>
+        <li class="nav"><a class="active" id="navChange" onclick="changeMe()">Change me</a></li>
+    </ul>
+    <br><br><br><br>
+
+    <h1>lev2_2</h1>
+    <div>
+        <form id="form1" action="" onsubmit="return false">
+            <label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname"
+                placeholder="Dein Name..."><label for="nachname">Last Name</label><input type="text" id="nachname"
+                name="nachname" placeholder="Dein Nachname..."><label for="land">Land</label><select id="land"
+                name="land">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+            </select><input type="submit" value="Submit" onclick="getDetails()">
+        </form>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- lev2_10 -->
+    <h1>lev2_10</h1>
+
+    <button onclick="mySmall()">Small</button>
+    <button onclick="myMiddle()">Middle</button>
+    <button onclick="myBig()">Big & Crazy</button>
+
+    <div class="wrapper">
+        <div id="element" class="small">
+            <h1>Hallo classList!</h1>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <!-- lev2_11 -->
+    <h1>lev2_11</h1>
+
+    <section id="box">
+        <button id="changeButton" onclick="changeBg()">Generate Random Background</button>
+    </section>
+
+
+
+
+
+
+
+    <script src=" assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/97f8f2a2f5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
