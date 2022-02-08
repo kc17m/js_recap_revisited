@@ -89,7 +89,7 @@ let navChange = document.getElementById("navChange")
 function changeMe() {
     console.log("test");
     home.classList.toggle("pink");
-    navHome.classList.add("reverse");
+    navHome.classList.toggle("reverse");
 
 
 }
